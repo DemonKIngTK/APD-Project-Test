@@ -315,7 +315,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(329, 30);
             this.textBox2.TabIndex = 7;
-            this.textBox2.Text = "โอนไว";
+            this.textBox2.Text = "พร้อมเปย์";
             // 
             // textBox1
             // 
@@ -324,7 +324,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(329, 30);
             this.textBox1.TabIndex = 6;
-            this.textBox1.Text = "นายดำ";
+            this.textBox1.Text = "นายแดง";
             // 
             // label6
             // 
@@ -474,6 +474,7 @@
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "โสด";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.Visible = false;
             // 
             // radioButton6
             // 
