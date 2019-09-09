@@ -16,5 +16,12 @@ namespace APD_Prject
         {
             InitializeComponent();
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Home home = new Home();
+            home.Show();
+        }
     }
 }

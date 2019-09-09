@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace APD_Prject
 {
-    public partial class from : Form
+    public partial class MgCustomer : Form
     {
-        public from()
+        public MgCustomer()
         {
             InitializeComponent();
         }
@@ -25,6 +25,13 @@ namespace APD_Prject
         private void Label11_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Home home = new Home();
+            home.Show();
         }
     }
 }
