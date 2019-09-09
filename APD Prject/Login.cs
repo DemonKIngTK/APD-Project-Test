@@ -26,5 +26,12 @@ namespace APD_Prject
         {
 
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home home = new Home();
+            home.Show();
+        }
     }
 }
